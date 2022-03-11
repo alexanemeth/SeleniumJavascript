@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --no-timeouts --parallel start*.js --reporter mochawesome --require mochawesome/register --reporter-options reportDir=./report,reportFilename=nyuszika"
+    "test": "mocha --no-timeouts --parallel start*.js --reporter mochawesome --require mochawesome/register --reporter-options reportDir=./report,reportFilename=testReport"
   },
   "keywords": [],
   "author": "",
