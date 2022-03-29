@@ -1,0 +1,32 @@
+[
+  {
+    "email": "muci@gmail.com",
+    "password": "GYy35!WsyijTsHq",
+    "description": "should be able to log in with valid data",
+    "shouldLogin": true
+  },
+  {
+    "email": "mucika@gmail.com",
+    "password": "GYy35!WsyijTsHq",
+    "description": "shouldn't be able to log in with invalid email",
+    "shouldLogin": false
+  },
+  {
+    "email": "muci@gmail.com",
+    "password": "G1y35!WsyijTsHq",
+    "description": "shouldn't be able to log in with invalid password",
+    "shouldLogin": false
+  },
+  {
+    "email": "",
+    "password": "G1y35!WsyijTsHq",
+    "description": "shouldn't be able to log in with missing email",
+    "shouldLogin": false
+  },
+  {
+    "email": "muci@gmail.com",
+    "password": "",
+    "description": "shouldn't be able to log in with missing password",
+    "shouldLogin": false
+  }
+]
